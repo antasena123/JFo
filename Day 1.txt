@@ -1,0 +1,55 @@
+01. Java EE
+	- Servlet
+	- JSP (Java Server Page)
+	- EJB (Enterprise Java Bean)
+	- Web Service
+	- JSF (Java Server Face)
+	- etc..
+
+02. Java EE Server
+	- Apache Tomcat
+	- Redhat JBoss
+	- Oracle Weblogic
+	- Oracle Glasfish
+	- ...
+
+03. Evolusi Bahasa Programming
+	Assembly ==> C ==> C++ 
+
+04. IDE Java
+	- Oracle Netbeans   ==> ASF (Apache Software Foundation) => Apache Netbeans
+	- Oracle JDeveloper
+	- Eclipse
+	- IntelijIdea
+	- etc....
+
+05. Installasi JDK
+	- Double click jdk-8u111-nb-8_2-windows-x64.exe
+	- JDK : c:\java\jdk
+	  JRE : c:\java\jre
+  
+	2 Buah Environment Variable
+	- JAVA_HOME	: c:\java\jdk
+	- PATH      : %JAVA_HOME%\bin
+
+	Testing
+
+	C:\> echo %JAVA_HOME%
+	C:\> echo %PATH%
+	C:\> java -version
+
+06. Hello Word Java
+
+	C:\> mkdir c:\labs
+	C:\> cd labs
+	$ notepad HelloWorld.java
+	$ javac HelloWorld.java
+	$ java HelloWorld
+
+07. Instalasi Netbeans 8.2
+	- Double click jdk-8u111-nb-8_2-windows-x64.exe
+
+08. Eksekusi Java Puzzle Game
+
+	C:\labs\OldGameVersions>java -jar 08-16-13.jar
+
